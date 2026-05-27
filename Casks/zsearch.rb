@@ -2,7 +2,8 @@ cask "zsearch" do
   version "2.10.2"
   sha256 "7d14fc1b1c7e479659e2b50d53958e580ade1ffe834ad80692d3fdf25e76ca03"
 
-  url "https://stdocumindprodaue.blob.core.windows.net/desktop-updates/ZSearch-#{version}-arm64.dmg"
+  url "https://stdocumindprodaue.blob.core.windows.net/desktop-updates/ZSearch-#{version}-arm64.dmg",
+      verified: "stdocumindprodaue.blob.core.windows.net/desktop-updates/"
   name "ZSearch"
   desc "Data-sovereign AI search and document platform"
   homepage "https://zsearch.ai/"

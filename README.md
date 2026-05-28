@@ -5,14 +5,14 @@ Official Homebrew Cask tap for [ZSearch](https://zsearch.ai) — data-sovereign 
 ## Install
 
 ```sh
-brew tap prashant86yadav/zsearch
+brew tap zsearch-ai/zsearch
 brew install --cask zsearch
 ```
 
 Or as a one-liner:
 
 ```sh
-brew install --cask prashant86yadav/zsearch/zsearch
+brew install --cask zsearch-ai/zsearch/zsearch
 ```
 
 ## Update
